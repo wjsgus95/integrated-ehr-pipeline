@@ -1,0 +1,17 @@
+# Core Data Processing (MIMIC-IV ETL)
+# Python 3.9 is required
+numpy>=1.21.0
+pandas>=1.3.0
+tqdm>=4.62.0
+treelib>=1.6.1
+h5pickle>=0.2.0
+
+# Spark engine for table joins
+pyspark>=3.2.0
+pyarrow>=11.0.0
+
+# Critical version to avoid processing performance issues
+transformers==4.29.1
+
+# High-performance dataframe library for medical records
+polars==0.17.0
